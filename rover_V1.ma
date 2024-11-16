@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
-//Name: rover_IK.ma
-//Last modified: Fri, Nov 15, 2024 11:23:13 PM
+//Name: rover_V1.ma
+//Last modified: Fri, Nov 15, 2024 11:23:25 PM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.2.1.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202405151550-05a853e76d";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22631)";
-fileInfo "UUID" "6AF9670A-4F0D-9344-D8AC-338C624352A4";
+fileInfo "UUID" "7EAB13C1-4DCA-1005-A1CB-FA97FC743B61";
 createNode transform -s -n "persp";
 	rename -uid "A23A5EBC-493C-0349-6F49-86B142384E83";
 	setAttr ".v" no;
@@ -47528,4 +47528,4 @@ connectAttr "makeNurbCircle3.oc" "transformGeometry3.ig";
 connectAttr "Body_GeoSG.pa" ":renderPartition.st" -na;
 connectAttr "lambert2.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of rover_IK.ma
+// End of rover_V1.ma
